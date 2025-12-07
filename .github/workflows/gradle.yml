@@ -28,7 +28,7 @@ jobs:
       run: chmod +x gradlew
 
     - name: Build with Gradle Wrapper
-      run: ./gradlew clean test -DapiKey="ApiKey a7a91f48-0371-4680-b69d-7928d9c1c9ad"
+      run: ./gradlew clean test -DapiKey="${{ secrets.API_KEY }}"
 
     - name: Copy History
       uses: actions/checkout@v2
