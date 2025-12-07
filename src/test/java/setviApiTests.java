@@ -1,6 +1,7 @@
 import DTO.UploadFreeTextApiRequestDto;
 import DTO.UploadUrlHtmlApiRequestDto;
 import config.TestPropertiesConfig;
+import io.qameta.allure.restassured.AllureRestAssured;
 import io.restassured.response.Response;
 import org.aeonbits.owner.ConfigFactory;
 import org.assertj.core.api.Assertions;
@@ -28,6 +29,7 @@ class setviApiTests {
 
         Response response = given()
                 .baseUri(configProperties.getBaseUrl())
+                .filter(new AllureRestAssured())
                 .header("accept", "text/plain")
                 .header("Content-Type", "application/json")
                 .header("Authorization", configProperties.getApiKey())
@@ -57,6 +59,7 @@ class setviApiTests {
 
         Response response = given()
                 .baseUri(configProperties.getBaseUrl())
+                .filter(new AllureRestAssured())
                 .header("accept", "text/plain")
                 .header("Content-Type", "application/json")
                 .header("Authorization", configProperties.getApiKey())
@@ -90,6 +93,7 @@ class setviApiTests {
 
         Response response = given()
                 .baseUri(configProperties.getBaseUrl())
+                .filter(new AllureRestAssured())
                 .header("accept", "text/plain")
                 .header("Content-Type", "application/json")
                 .header("Authorization", configProperties.getApiKey())
@@ -117,6 +121,7 @@ class setviApiTests {
 
         Response response = given()
                 .baseUri(configProperties.getBaseUrl())
+                .filter(new AllureRestAssured())
                 .header("accept", "text/plain")
                 .header("Content-Type", "application/json")
                 .header("Authorization", configProperties.getApiKey())
