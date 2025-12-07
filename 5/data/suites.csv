@@ -1,0 +1,5 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","4206","uploadFreeTextTest()","","Sun Dec 07 17:39:39 UTC 2025","passed","Sun Dec 07 17:39:43 UTC 2025","","setviApiTests","setviApiTests","uploadFreeTextTest"
+"","9181","uploadFreeTextSmokeTest()","","Sun Dec 07 17:39:30 UTC 2025","passed","Sun Dec 07 17:39:39 UTC 2025","","setviApiTests","setviApiTests","uploadFreeTextSmokeTest"
+"","52451","uploadUrlHtmlTest()","","Sun Dec 07 17:40:37 UTC 2025","failed","Sun Dec 07 17:41:29 UTC 2025","","setviApiTests","setviApiTests","uploadUrlHtmlTest"
+"","53124","uploadUrlHtmlSmokeTest()","","Sun Dec 07 17:39:43 UTC 2025","passed","Sun Dec 07 17:40:37 UTC 2025","","setviApiTests","setviApiTests","uploadUrlHtmlSmokeTest"
