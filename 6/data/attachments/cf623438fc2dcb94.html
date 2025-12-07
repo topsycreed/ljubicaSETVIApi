@@ -1,0 +1,42 @@
+<div>POST to https://intelligence-dev.setvi.com/api/rfq/upload-url-html</div>
+
+    <h4>Body</h4>
+    <div>
+    <pre class="preformated-text">
+{
+    &quot;statusId&quot;: &quot;string&quot;,
+    &quot;url&quot;: &quot;https://www.webstaurantstore.com/choice-24-x-18-x-1-2-green-polyethylene-cutting-board/40724185GN.html&quot;,
+    &quot;topK&quot;: 3,
+    &quot;threshold&quot;: 0.5,
+    &quot;enablePrivateLabelRanking&quot;: false,
+    &quot;enableStockProductRanking&quot;: false,
+    &quot;enableVendorRanking&quot;: false,
+    &quot;enableProductRanking&quot;: true,
+    &quot;useOldReranking&quot;: false
+}    </pre>
+    </div>
+
+    <h4>Headers</h4>
+    <div>
+            <div>Authorization: ApiKey a7a91f48-0371-4680-b69d-7928d9c1c9ad</div>
+            <div>accept: text/plain</div>
+            <div>Content-Type: application/json</div>
+    </div>
+
+
+
+    <h4>Curl</h4>
+    <div>
+        curl -v -X POST &#39;https://intelligence-dev.setvi.com/api/rfq/upload-url-html&#39; -H &#39;Authorization: ApiKey a7a91f48-0371-4680-b69d-7928d9c1c9ad&#39; -H &#39;accept: text/plain&#39; -H &#39;Content-Type: application/json&#39; -d &#39;{
+    &quot;statusId&quot;: &quot;string&quot;,
+    &quot;url&quot;: &quot;https://www.webstaurantstore.com/choice-24-x-18-x-1-2-green-polyethylene-cutting-board/40724185GN.html&quot;,
+    &quot;topK&quot;: 3,
+    &quot;threshold&quot;: 0.5,
+    &quot;enablePrivateLabelRanking&quot;: false,
+    &quot;enableStockProductRanking&quot;: false,
+    &quot;enableVendorRanking&quot;: false,
+    &quot;enableProductRanking&quot;: true,
+    &quot;useOldReranking&quot;: false
+}&#39;
+    </div>
+
